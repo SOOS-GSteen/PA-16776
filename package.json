@@ -1,0 +1,25 @@
+{
+  "name": "my-npm-package",
+  "description": "my-npm-package",
+  "author": "SOOS",
+  "publisher": "SOOS",
+  "license": "MIT",
+  "version": "2.0.17",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup:install": "npm install",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOOS-GSteen/PA-16776.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "dependencies": {
+    "argparse": "^2.0.1",
+  },
+  "devDependencies": {
+    "@types/argparse": "^2.0.16",
+  }
+}
